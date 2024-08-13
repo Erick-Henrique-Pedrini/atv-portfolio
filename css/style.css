@@ -16,15 +16,20 @@
 html {
     font-size: calc(10px + 1vw);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #21243d
 }
 html body a{
     text-decoration: none ;
-    color: black;
+    color: #21243d
 }
 
+
 /*==================
-    Formatação da Pagina
+    Formatação do topo da página
 ==================*/
+header{
+    margin: 0px 5vw 3vh 05vh ;
+}
 
 header nav ul{
     display: flex;
@@ -35,6 +40,59 @@ header nav ul li{
     margin: 1vh 10px 0px 10px;
 }
 header nav ul li.atual a{
-    color: chocolate;
+    color:  #FF7C7C;
 
+}
+
+/*==================
+    Formatação de conteúdo
+==================*/
+
+main.works{
+    margin: 0vw 20vw 0vw 28vw;
+}
+main.works h1{
+    font-weight: normal;
+    margin: 0vw 0vw 2vw 0vw;
+
+}
+main.works section{
+    border-bottom : 1px solid black; 
+    padding: 3vw 0px 3vw 0px;
+}
+main.works section p{
+    margin: 2vw 0vw 0vw 0vw;
+}
+main.works section p span{
+    background-color: #FF7C7C;
+    border-radius: 20px;
+    padding: 2px 7px 2px 7px;
+    color: white;
+    font-weight: bold;
+    margin: 0px 30px 0px 0px;
+}
+main.works section:last-child{
+    border: none;
+}
+
+
+/*==================
+    Formatação do rodapé
+==================*/
+footer{
+    text-align: center;
+    padding: 1vw 0vw 2vw 0vw;
+}
+footer nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+footer nav ul li{
+    font-size: 2rem;
+
+}
+footer nav ul li a span{
+    color: black;
+   margin: 0px 1vw 1vw 1vw;
 }
