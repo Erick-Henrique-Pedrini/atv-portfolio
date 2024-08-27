@@ -103,7 +103,7 @@ section.banner button{
 }
 section.rt-post{
     background-color: #EDF7FA;
-    padding: 2vw 5px 2vw 5px;
+    padding: 1vw 5px 2vw 5px;
 
 }
 section.rt-post ul{
@@ -115,23 +115,60 @@ section.rt-post h2{
 }
 section.rt-post ul li{
     background-color: white;
-    padding: 1vw 10px 25px 1vw;
-    margin:0px 3vw 0px 0vw; 
+    padding: 1vw 1vw 1vw 1vw;
+
 }
 section.rt-post ul li:last-child{
-    margin-right: 0vw;
+    margin-left:1vw;
 
 }
 section.rt-post ul li p{
     margin: 1.5vw 0vw 1.5vw 0vw;
 
 }
+.ft-works h2{
+    
+    font-weight: 100;
+    margin: 1vw 0vw 0vw 0vw;
+}
+.ft-works >div{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.ft-works div:first-child{
+    padding: 0px;
+    margin: 0px 2vw 0px 0px;
+}
+.ft-works div p{
+    margin: 1vw 0vw 1vw 0vw;
+    
+}
+.ft-works img{
+    width: 29vw;
+    height: 20vw;
+}
+.ft-works div:last-child{
+    margin: 0px ;
+}
+.ft-works span.num{
+    background-color: #142850;
+    padding: 2px;
+    border-radius: 20px ;
+    color: white;
+    font-weight: bold;
+}
+.ft-works span.letra{
+    color: #8695A4;
+}
+
+
 /*==================
     Formatação do rodapé
 ==================*/
 footer{
     text-align: center;
-    padding: 1vw 0vw 2vw 0vw;
+    padding: 10vw 0vw 2vw 0vw;
 }
 footer nav ul{
     display: flex;
